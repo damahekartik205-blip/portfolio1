@@ -1,0 +1,116 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, sans-serif;
+}
+
+body{
+background:#081b29;
+color:white;
+}
+
+header{
+background:#051129;
+padding:20px;
+}
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+width:90%;
+margin:auto;
+}
+
+.logo{
+color:cyan;
+}
+
+nav ul{
+display:flex;
+list-style:none;
+}
+
+nav ul li{
+margin-left:30px;
+}
+
+nav ul li a{
+color:white;
+text-decoration:none;
+font-size:18px;
+}
+
+nav ul li a:hover{
+color:cyan;
+}
+
+.home{
+display:flex;
+justify-content:space-around;
+align-items:center;
+height:90vh;
+padding:40px;
+}
+
+.home img{
+width:300px;
+height:300px;
+border-radius:50%;
+border:5px solid cyan;
+}
+
+span{
+color:cyan;
+}
+
+.btn{
+display:inline-block;
+margin-top:20px;
+padding:12px 30px;
+background:cyan;
+color:black;
+text-decoration:none;
+border-radius:30px;
+font-weight:bold;
+}
+
+section{
+padding:80px 10%;
+}
+
+h2{
+text-align:center;
+margin-bottom:30px;
+color:cyan;
+}
+
+.skill{
+display:inline-block;
+padding:15px 30px;
+background:#112e42;
+margin:10px;
+border-radius:10px;
+}
+
+.project{
+background:#112e42;
+padding:20px;
+margin-top:20px;
+border-radius:10px;
+}
+
+#contact a{
+display:inline-block;
+margin:15px;
+color:cyan;
+text-decoration:none;
+}
+
+footer{
+background:#051129;
+padding:20px;
+text-align:center;
+margin-top:50px;
+}
